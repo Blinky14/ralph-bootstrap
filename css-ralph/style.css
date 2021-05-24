@@ -1,4 +1,103 @@
 body{
     font-size: 50px;
-    color:lightgrey;
+    color:black;
+    min-height: 1200px;
+     
+        
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color:black
+}
+
+.hero-container h1,.hero-text,.red-heading {
+    font-family: 'Press Start 2P', cursive;
+    color:#fff;
+}
+
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+
+
+  .hero {
+    border-radius: 300px;
+    width: 300px;
+    border: 15px solid White;
+  }
+
+.hero-container{
+    background-color: #d14635;
+    
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+    
+}
+
+.big-image {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+
+p.caption{
+    color:#999999;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.last-part {
+    font-size: 20px;
+    
+}
+
+a{
+    color: #e70c19
+}
+
+a:hover{
+    color:white;
+    background-color: #483a94 
+}
+
+footer{
+    background-color: #d14635;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+}
+
+footer p{
+    margin:0px;
+}
+
+footer a{
+    color:white;
+}
+footer a:hover{
+    opacity: .5;
+    background-color:transparent;
+}
+
+.red-heading {
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
 }
